@@ -1,6 +1,15 @@
-# 🌸 Iris Flower Classification Web App
+# 🌸 Iris Flower Classification 
 
-A Machine Learning-powered web application that predicts the species of an Iris flower based on sepal and petal measurements. The application is built using Flask and Scikit-learn and deployed on Vercel.
+A Machine Learning-powered web application that predicts the species of an Iris flower based on sepal and petal measurements. The application is built using Flask and Scikit-learn to provide real-time classification of Iris flower species.
+
+
+## 🖥️ Application Preview
+
+<p align="center">
+  <img src="static/images/ui-preview.png" alt="Application UI" width="900">
+</p>
+
+---
 
 ## 🚀 Live Demo
 
@@ -117,6 +126,22 @@ The following machine learning algorithms were trained and evaluated:
 
 ---
 
+## 🔥 Confusion Matrix
+
+<p align="center">
+  <img src="static/images/confusion-matrix.png" alt="Confusion Matrix" width="400">
+</p>
+
+---
+
+## 📋 Classification Report
+
+<p align="center">
+  <img src="static/images/classification-report.png" alt="Classification Report" width="500">
+</p>
+
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -131,8 +156,8 @@ Iris-Flower-Classification/
 │   └── index.html
 │
 ├── static/
-│   ├── style.css
-│   └── images/
+│   ├── images/
+│   └── style.css
 │
 └── README.md
 ```
@@ -200,7 +225,6 @@ http://127.0.0.1:5000
 
 ### Sandeep Kumar Sha
 
-AI/ML Enthusiast | Python Developer | Data-Driven Thinker
 
 * GitHub: https://github.com/SandeepKumarSha
 * LinkedIn: https://www.linkedin.com/in/sandeepkumarsha
