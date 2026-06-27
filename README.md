@@ -38,12 +38,11 @@ Users can input these measurements through an intuitive web interface and instan
 
 ## ✨ Features
 
-✅ User-friendly and responsive interface
-✅ Real-time Iris species prediction
-✅ Interactive and modern UI design
-✅ Flower image display based on prediction
-✅ Multiple machine learning models evaluated
-✅ Fully deployed and accessible online
+✅ User-friendly and responsive interface  
+✅ Real-time Iris species prediction  
+✅ Interactive and modern UI design  
+✅ Flower image display based on prediction  
+✅ Multiple machine learning models evaluated  
 
 ---
 
