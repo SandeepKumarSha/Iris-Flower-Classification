@@ -8,9 +8,21 @@ app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 
 species = {
-    0: "Iris Setosa",
-    1: "Iris Versicolor",
-    2: "Iris Virginica"
+    0: {
+        "name": "Iris Setosa",
+        "id": "setosa",
+        "description": "Known for its distinctive purplish-blue petals with white and bright yellow signals. It is native to the subarctic regions, thriving in damp meadows and wetlands."
+    },
+    1: {
+        "name": "Iris Versicolor",
+        "id": "versicolor",
+        "description": "Commonly called the blue flag, it features magnificent blue-violet blossoms with deep purple veins and yellow patches. It is native to eastern North America."
+    },
+    2: {
+        "name": "Iris Virginica",
+        "id": "virginica",
+        "description": "Also known as the Virginia iris, this elegant species displays soft violet to deep blue petals. It is native to coastal marshes and wet soils in the eastern United States."
+    }
 }
 
 @app.route('/')
@@ -35,7 +47,10 @@ def predict():
 
     result = species[prediction]
 
-    return render_template('index.html', prediction_text=result)
+    return render_template('index.html', 
+                           prediction_text=result['name'],
+                           prediction_id=result['id'],
+                           prediction_description=result['description'])
 
 
 if __name__ == '__main__':
